@@ -1,0 +1,48 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+.admin-bar {
+  .header {
+    top: 32px;
+  }
+}
+.header {
+  position: sticky;
+  top: 0;
+  background-color: $half-light-bg;
+  &__container.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {}
+  &__menu {
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      &-item {
+        a {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 100%;
+          letter-spacing: 0;
+          vertical-align: middle;
+          color: $secondary;
+          text-decoration: none;
+        }
+        &.current-menu-item a {
+          color: $primary;
+        }
+      }
+    }
+  }
+  &__burger {
+    display: flex;
+    width: fit-content;
+    @include min-992 {
+      width: 0;
+    }
+  }
+}

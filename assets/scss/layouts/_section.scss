@@ -1,0 +1,8 @@
+@import "../abstracts/mixins";
+
+section {
+  padding: 24px 0;
+  @include min-992 {
+    padding: 64px 0;
+  }
+}

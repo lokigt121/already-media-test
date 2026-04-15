@@ -1,0 +1,9 @@
+@mixin min-768 {
+  @media (min-width: 768px) { @content; }
+}
+@mixin min-992 {
+  @media (min-width: 992px) { @content; }
+}
+@mixin min-1366 {
+  @media (min-width: 1366px) { @content; }
+}

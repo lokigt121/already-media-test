@@ -1,0 +1,13 @@
+{
+  "name": "already-media-test",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.99.0",
+    "scss": "^0.2.4",
+    "vite": "^8.0.8"
+  }
+}

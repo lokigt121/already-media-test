@@ -1,0 +1,38 @@
+@import '../../abstracts/variables';
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: fit-content;
+  &--primary {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 32px;
+    box-shadow: 0 4px 32px 0 #DFC37C40;
+    color: $white;
+    border-radius: 16px;
+    background-color: $secondary;
+  }
+  &--secondary {
+    border: 2px solid $primary;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 16px;
+    color: $primary;
+  }
+  &--tertiary {
+    padding: 10px 24px;
+    color: $orange-light;
+    border-radius: 16px;
+  }
+}

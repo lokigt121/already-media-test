@@ -1,0 +1,35 @@
+@import '../abstracts/variables';
+.h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0;
+  vertical-align: middle;
+  color: $secondary;
+}
+.h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  vertical-align: middle;
+  color: $secondary;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+.text-color-primary {
+  color: $primary;
+}
